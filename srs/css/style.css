@@ -49,9 +49,10 @@ color: white;
 	font-style: italic;
 	color: white;
 	line-height: 1.7;
-	margin-bottom: 7rem;
+	
 }
 .main-btn {
+  margin-top: 7rem;
 	width: 20.3rem;
 	text-align: center;
 	background-color: #009ae1;
@@ -108,4 +109,8 @@ color: #555555;
 }
 .features-block h3:hover {
   color: #009ae1;
+}
+.features-btn {
+  text-align: center;
+  margin-bottom: 7rem;
 }
