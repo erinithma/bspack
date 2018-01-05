@@ -120,16 +120,18 @@ color: #555555;
 }
 .gallery-subtitle {
   color: #939393;
+  margin-bottom: 5rem;
 }
 .gallery-title {
 font-family: "Open Sans Semibold", sans-serif;
 font-size: 2.8rem; 
+padding-top: 8rem;
 }
 #gallery {
   position: relative;
   background: #f2f1f0;
   background-size: cover;
-  padding-bottom: 5rem;
+  padding-bottom: 9rem;
 }
 .slick-slide.slick-center {
   opacity: 1;
@@ -138,4 +140,42 @@ font-size: 2.8rem;
   -ms-transform: scale(1.08);
   -o-transform: scale(1.22);
   -webkit-transform: scale(1.22);
+}
+.cta {
+  background: #008ddd;
+}
+.cta-title {
+  color: white;
+  font-size: 2.8rem;
+  font-style: italic;
+  padding-top: 3rem;
+}
+.cta-subtitle {
+  color: white;
+  font-size: 1.4rem;
+  padding-bottom: 3rem;
+}
+.cta-btn {
+  color: #008ddd;
+  background: white;
+  margin-top: 4em;
+  font-weight: bold;
+}
+footer {
+  background: #111;
+}
+footer img {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.copyright,.faq {
+  display: inline-block;
+  color: white;
+  padding-top: 3rem;
+  
+}
+.faq {
+  cursor: pointer;
 }
