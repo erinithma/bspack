@@ -74,7 +74,7 @@ color: white;
 		margin-top: 5rem;
 		text-align: center;
 		color: white;
-		margin-bottom: 2rem;
+		padding-bottom: 2rem;
 	}
 	.section-header {
   font-family: "Open Sans Light Italic", sans-serif;
@@ -113,4 +113,29 @@ color: #555555;
 .features-btn {
   text-align: center;
   margin-bottom: 7rem;
+}
+.gallery-title, .gallery-subtitle  {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.gallery-subtitle {
+  color: #939393;
+}
+.gallery-title {
+font-family: "Open Sans Semibold", sans-serif;
+font-size: 2.8rem; 
+}
+#gallery {
+  position: relative;
+  background: #f2f1f0;
+  background-size: cover;
+  padding-bottom: 5rem;
+}
+.slick-slide.slick-center {
+  opacity: 1;
+  transform: scale(1.22);
+  -moz-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  -o-transform: scale(1.22);
+  -webkit-transform: scale(1.22);
 }
